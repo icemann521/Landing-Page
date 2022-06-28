@@ -16,7 +16,7 @@ body {
 /* Utility Classes Start Here */
 .container {
   /* border: 3px solid aqua; */
-  max-width: 1400px;
+  max-width: 1350px;
   margin: auto;
   overflow: hidden;
   padding: 0 20px;
