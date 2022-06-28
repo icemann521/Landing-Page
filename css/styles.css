@@ -23,8 +23,22 @@ body {
 }
 
 .main-logo {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 500;
+}
+
+.btn {
+  background: rgba(246, 246, 246, 0.3);
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background: #3c2c3e;
+  text-decoration: underline;
 }
 /* Utility Classes End Here */
 /* Navbar Starts Here */
@@ -46,6 +60,18 @@ body {
 .nav-links a {
   color: rgb(246, 246, 246);
   margin-right: 25px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 /* Navbar Ends Here */
+
+/* Home Section Starts Here */
+#home {
+  height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+}
+
+.info-section {
+  border: 3px solid pink;
+  width: 80%;
+}
