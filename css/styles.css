@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600;700;800&display=swap");
+
+html,
+body {
+  background-image: linear-gradient(
+    to right top,
+    #bdf2d5,
+    #95ccc0,
+    #76a6a7,
+    #5f8089,
+    #4b5d67
+  );
+  font-family: "Anek Latin", sans-serif;
+}
+
+/* Utility Classes Start Here */
+.container {
+  /* border: 3px solid aqua; */
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.main-logo {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+/* Utility Classes End Here */
+/* Navbar Starts Here */
+.navbar {
+  color: rgb(246, 246, 246);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 50px;
+}
+
+.menu .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: rgb(246, 246, 246);
+  margin-right: 25px;
+  font-size: 1.2rem;
+}
+/* Navbar Ends Here */
