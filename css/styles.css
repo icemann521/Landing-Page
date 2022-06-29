@@ -165,8 +165,18 @@ body {
   max-width: 25vw;
 }
 /* Photos End Here */
-.media-icons {
+.media-icons .icons {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.media-icons a {
+  position: relative;
+  font-size: 25px;
+}
+
+.media-icons a:not(:last-child) {
+  margin-right: 60px;
 }
