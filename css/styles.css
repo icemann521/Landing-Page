@@ -181,3 +181,25 @@ body {
 .media-icons a:not(:last-child) {
   margin-right: 60px;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+  }
+
+  #home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .photos-section {
+    flex-direction: column;
+  }
+}
